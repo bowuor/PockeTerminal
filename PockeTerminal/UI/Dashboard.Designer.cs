@@ -33,7 +33,6 @@
             this.balanceButton = new System.Windows.Forms.Button();
             this.buyButton = new System.Windows.Forms.Button();
             this.itemsButton = new System.Windows.Forms.Button();
-            this.homeButton = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.HeaderPanel = new System.Windows.Forms.Panel();
@@ -52,11 +51,10 @@
             // 
             // MenuPanel
             // 
-            this.MenuPanel.BackColor = System.Drawing.Color.Black;
+            this.MenuPanel.BackColor = System.Drawing.SystemColors.Control;
             this.MenuPanel.Controls.Add(this.balanceButton);
             this.MenuPanel.Controls.Add(this.buyButton);
             this.MenuPanel.Controls.Add(this.itemsButton);
-            this.MenuPanel.Controls.Add(this.homeButton);
             this.MenuPanel.Controls.Add(this.panel4);
             this.MenuPanel.Dock = System.Windows.Forms.DockStyle.Left;
             this.MenuPanel.Location = new System.Drawing.Point(0, 0);
@@ -72,8 +70,9 @@
             this.balanceButton.FlatAppearance.BorderSize = 0;
             this.balanceButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.balanceButton.Font = new System.Drawing.Font("Maiandra GD", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.balanceButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.balanceButton.Image = ((System.Drawing.Image)(resources.GetObject("balanceButton.Image")));
-            this.balanceButton.Location = new System.Drawing.Point(17, 420);
+            this.balanceButton.Location = new System.Drawing.Point(17, 419);
             this.balanceButton.Name = "balanceButton";
             this.balanceButton.Size = new System.Drawing.Size(107, 100);
             this.balanceButton.TabIndex = 7;
@@ -89,8 +88,9 @@
             this.buyButton.FlatAppearance.BorderSize = 0;
             this.buyButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buyButton.Font = new System.Drawing.Font("Maiandra GD", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buyButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.buyButton.Image = ((System.Drawing.Image)(resources.GetObject("buyButton.Image")));
-            this.buyButton.Location = new System.Drawing.Point(17, 320);
+            this.buyButton.Location = new System.Drawing.Point(17, 289);
             this.buyButton.Name = "buyButton";
             this.buyButton.Size = new System.Drawing.Size(107, 100);
             this.buyButton.TabIndex = 6;
@@ -106,8 +106,9 @@
             this.itemsButton.FlatAppearance.BorderSize = 0;
             this.itemsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.itemsButton.Font = new System.Drawing.Font("Maiandra GD", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.itemsButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.itemsButton.Image = ((System.Drawing.Image)(resources.GetObject("itemsButton.Image")));
-            this.itemsButton.Location = new System.Drawing.Point(17, 220);
+            this.itemsButton.Location = new System.Drawing.Point(17, 159);
             this.itemsButton.Name = "itemsButton";
             this.itemsButton.Size = new System.Drawing.Size(107, 100);
             this.itemsButton.TabIndex = 5;
@@ -115,25 +116,9 @@
             this.itemsButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.itemsButton.UseVisualStyleBackColor = false;
             // 
-            // homeButton
-            // 
-            this.homeButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.homeButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.homeButton.FlatAppearance.BorderSize = 0;
-            this.homeButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.homeButton.Font = new System.Drawing.Font("Maiandra GD", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.homeButton.Image = ((System.Drawing.Image)(resources.GetObject("homeButton.Image")));
-            this.homeButton.Location = new System.Drawing.Point(17, 120);
-            this.homeButton.Name = "homeButton";
-            this.homeButton.Size = new System.Drawing.Size(107, 100);
-            this.homeButton.TabIndex = 4;
-            this.homeButton.Text = "Home";
-            this.homeButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.homeButton.UseVisualStyleBackColor = false;
-            // 
             // panel4
             // 
-            this.panel4.BackColor = System.Drawing.Color.LimeGreen;
+            this.panel4.BackColor = System.Drawing.SystemColors.Control;
             this.panel4.Controls.Add(this.pictureBox1);
             this.panel4.Location = new System.Drawing.Point(1, 0);
             this.panel4.Name = "panel4";
@@ -173,7 +158,6 @@
             // panel6
             // 
             this.panel6.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.panel6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel6.BackgroundImage")));
             this.panel6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.panel6.Controls.Add(this.statInfo);
             this.panel6.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -252,7 +236,6 @@
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Button homeButton;
         private System.Windows.Forms.Button balanceButton;
         private System.Windows.Forms.Button buyButton;
         private System.Windows.Forms.Button itemsButton;

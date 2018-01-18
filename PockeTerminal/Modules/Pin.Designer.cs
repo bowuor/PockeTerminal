@@ -30,7 +30,6 @@
         {
             this.bunifuMetroTextbox1 = new Bunifu.Framework.UI.BunifuMetroTextbox();
             this.bunifuCustomLabel1 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuTileButton1 = new Bunifu.Framework.UI.BunifuTileButton();
             this.NumpadEnterButton = new Bunifu.Framework.UI.BunifuTileButton();
             this.NumpadButton0 = new Bunifu.Framework.UI.BunifuTileButton();
             this.NumpadButton8 = new Bunifu.Framework.UI.BunifuTileButton();
@@ -42,6 +41,8 @@
             this.NumpadButton2 = new Bunifu.Framework.UI.BunifuTileButton();
             this.NumpadButton3 = new Bunifu.Framework.UI.BunifuTileButton();
             this.NumpadButton1 = new Bunifu.Framework.UI.BunifuTileButton();
+            this.bunifuTileButton2 = new Bunifu.Framework.UI.BunifuTileButton();
+            this.bunifuTileButton3 = new Bunifu.Framework.UI.BunifuTileButton();
             this.SuspendLayout();
             // 
             // bunifuMetroTextbox1
@@ -57,7 +58,7 @@
             this.bunifuMetroTextbox1.Location = new System.Drawing.Point(7, 6);
             this.bunifuMetroTextbox1.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuMetroTextbox1.Name = "bunifuMetroTextbox1";
-            this.bunifuMetroTextbox1.Size = new System.Drawing.Size(229, 38);
+            this.bunifuMetroTextbox1.Size = new System.Drawing.Size(306, 38);
             this.bunifuMetroTextbox1.TabIndex = 0;
             this.bunifuMetroTextbox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.bunifuMetroTextbox1.OnValueChanged += new System.EventHandler(this.bunifuMetroTextbox1_OnValueChanged);
@@ -68,49 +69,29 @@
             this.bunifuCustomLabel1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bunifuCustomLabel1.Font = new System.Drawing.Font("Maiandra GD", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuCustomLabel1.ForeColor = System.Drawing.Color.SeaGreen;
-            this.bunifuCustomLabel1.Location = new System.Drawing.Point(61, 48);
+            this.bunifuCustomLabel1.Location = new System.Drawing.Point(94, 48);
             this.bunifuCustomLabel1.Name = "bunifuCustomLabel1";
             this.bunifuCustomLabel1.Size = new System.Drawing.Size(126, 25);
             this.bunifuCustomLabel1.TabIndex = 1;
             this.bunifuCustomLabel1.Text = "ENTER PIN";
             // 
-            // bunifuTileButton1
-            // 
-            this.bunifuTileButton1.BackColor = System.Drawing.Color.SeaGreen;
-            this.bunifuTileButton1.color = System.Drawing.Color.SeaGreen;
-            this.bunifuTileButton1.colorActive = System.Drawing.Color.MediumSeaGreen;
-            this.bunifuTileButton1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuTileButton1.Font = new System.Drawing.Font("Maiandra GD", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuTileButton1.ForeColor = System.Drawing.Color.White;
-            this.bunifuTileButton1.Image = null;
-            this.bunifuTileButton1.ImagePosition = 0;
-            this.bunifuTileButton1.ImageZoom = 0;
-            this.bunifuTileButton1.LabelPosition = 45;
-            this.bunifuTileButton1.LabelText = "DELETE";
-            this.bunifuTileButton1.Location = new System.Drawing.Point(84, 301);
-            this.bunifuTileButton1.Margin = new System.Windows.Forms.Padding(5);
-            this.bunifuTileButton1.Name = "bunifuTileButton1";
-            this.bunifuTileButton1.Size = new System.Drawing.Size(75, 73);
-            this.bunifuTileButton1.TabIndex = 24;
-            this.bunifuTileButton1.Click += new System.EventHandler(this.bunifuTileButton1_Click);
-            // 
             // NumpadEnterButton
             // 
-            this.NumpadEnterButton.BackColor = System.Drawing.Color.SeaGreen;
-            this.NumpadEnterButton.color = System.Drawing.Color.SeaGreen;
+            this.NumpadEnterButton.BackColor = System.Drawing.Color.Green;
+            this.NumpadEnterButton.color = System.Drawing.Color.Green;
             this.NumpadEnterButton.colorActive = System.Drawing.Color.MediumSeaGreen;
             this.NumpadEnterButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.NumpadEnterButton.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NumpadEnterButton.ForeColor = System.Drawing.Color.White;
+            this.NumpadEnterButton.ForeColor = System.Drawing.Color.Black;
             this.NumpadEnterButton.Image = null;
-            this.NumpadEnterButton.ImagePosition = 16;
+            this.NumpadEnterButton.ImagePosition = 50;
             this.NumpadEnterButton.ImageZoom = 50;
-            this.NumpadEnterButton.LabelPosition = 45;
-            this.NumpadEnterButton.LabelText = "ENTER";
-            this.NumpadEnterButton.Location = new System.Drawing.Point(161, 301);
+            this.NumpadEnterButton.LabelPosition = 80;
+            this.NumpadEnterButton.LabelText = "OK";
+            this.NumpadEnterButton.Location = new System.Drawing.Point(238, 226);
             this.NumpadEnterButton.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.NumpadEnterButton.Name = "NumpadEnterButton";
-            this.NumpadEnterButton.Size = new System.Drawing.Size(75, 73);
+            this.NumpadEnterButton.Size = new System.Drawing.Size(75, 148);
             this.NumpadEnterButton.TabIndex = 23;
             this.NumpadEnterButton.Click += new System.EventHandler(this.NumpadEnterButton_Click);
             // 
@@ -121,7 +102,7 @@
             this.NumpadButton0.colorActive = System.Drawing.Color.MediumSeaGreen;
             this.NumpadButton0.Cursor = System.Windows.Forms.Cursors.Hand;
             this.NumpadButton0.Font = new System.Drawing.Font("Maiandra GD", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NumpadButton0.ForeColor = System.Drawing.Color.White;
+            this.NumpadButton0.ForeColor = System.Drawing.Color.Black;
             this.NumpadButton0.Image = null;
             this.NumpadButton0.ImagePosition = 24;
             this.NumpadButton0.ImageZoom = 50;
@@ -130,7 +111,7 @@
             this.NumpadButton0.Location = new System.Drawing.Point(7, 301);
             this.NumpadButton0.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.NumpadButton0.Name = "NumpadButton0";
-            this.NumpadButton0.Size = new System.Drawing.Size(75, 73);
+            this.NumpadButton0.Size = new System.Drawing.Size(229, 73);
             this.NumpadButton0.TabIndex = 22;
             this.NumpadButton0.Click += new System.EventHandler(this.NumpadButton0_Click);
             // 
@@ -141,7 +122,7 @@
             this.NumpadButton8.colorActive = System.Drawing.Color.MediumSeaGreen;
             this.NumpadButton8.Cursor = System.Windows.Forms.Cursors.Hand;
             this.NumpadButton8.Font = new System.Drawing.Font("Maiandra GD", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NumpadButton8.ForeColor = System.Drawing.Color.White;
+            this.NumpadButton8.ForeColor = System.Drawing.Color.Black;
             this.NumpadButton8.Image = null;
             this.NumpadButton8.ImagePosition = 24;
             this.NumpadButton8.ImageZoom = 50;
@@ -161,7 +142,7 @@
             this.NumpadButton9.colorActive = System.Drawing.Color.MediumSeaGreen;
             this.NumpadButton9.Cursor = System.Windows.Forms.Cursors.Hand;
             this.NumpadButton9.Font = new System.Drawing.Font("Maiandra GD", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NumpadButton9.ForeColor = System.Drawing.Color.White;
+            this.NumpadButton9.ForeColor = System.Drawing.Color.Black;
             this.NumpadButton9.Image = null;
             this.NumpadButton9.ImagePosition = 24;
             this.NumpadButton9.ImageZoom = 50;
@@ -181,7 +162,7 @@
             this.NumpadButton7.colorActive = System.Drawing.Color.MediumSeaGreen;
             this.NumpadButton7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.NumpadButton7.Font = new System.Drawing.Font("Maiandra GD", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NumpadButton7.ForeColor = System.Drawing.Color.White;
+            this.NumpadButton7.ForeColor = System.Drawing.Color.Black;
             this.NumpadButton7.Image = null;
             this.NumpadButton7.ImagePosition = 24;
             this.NumpadButton7.ImageZoom = 50;
@@ -201,7 +182,7 @@
             this.NumpadButton5.colorActive = System.Drawing.Color.MediumSeaGreen;
             this.NumpadButton5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.NumpadButton5.Font = new System.Drawing.Font("Maiandra GD", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NumpadButton5.ForeColor = System.Drawing.Color.White;
+            this.NumpadButton5.ForeColor = System.Drawing.Color.Black;
             this.NumpadButton5.Image = null;
             this.NumpadButton5.ImagePosition = 24;
             this.NumpadButton5.ImageZoom = 50;
@@ -221,7 +202,7 @@
             this.NumpadButton6.colorActive = System.Drawing.Color.MediumSeaGreen;
             this.NumpadButton6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.NumpadButton6.Font = new System.Drawing.Font("Maiandra GD", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NumpadButton6.ForeColor = System.Drawing.Color.White;
+            this.NumpadButton6.ForeColor = System.Drawing.Color.Black;
             this.NumpadButton6.Image = null;
             this.NumpadButton6.ImagePosition = 24;
             this.NumpadButton6.ImageZoom = 50;
@@ -241,7 +222,7 @@
             this.NumpadButton4.colorActive = System.Drawing.Color.MediumSeaGreen;
             this.NumpadButton4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.NumpadButton4.Font = new System.Drawing.Font("Maiandra GD", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NumpadButton4.ForeColor = System.Drawing.Color.White;
+            this.NumpadButton4.ForeColor = System.Drawing.Color.Black;
             this.NumpadButton4.Image = null;
             this.NumpadButton4.ImagePosition = 24;
             this.NumpadButton4.ImageZoom = 50;
@@ -261,7 +242,7 @@
             this.NumpadButton2.colorActive = System.Drawing.Color.MediumSeaGreen;
             this.NumpadButton2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.NumpadButton2.Font = new System.Drawing.Font("Maiandra GD", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NumpadButton2.ForeColor = System.Drawing.Color.White;
+            this.NumpadButton2.ForeColor = System.Drawing.Color.Black;
             this.NumpadButton2.Image = null;
             this.NumpadButton2.ImagePosition = 24;
             this.NumpadButton2.ImageZoom = 50;
@@ -281,7 +262,7 @@
             this.NumpadButton3.colorActive = System.Drawing.Color.MediumSeaGreen;
             this.NumpadButton3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.NumpadButton3.Font = new System.Drawing.Font("Maiandra GD", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NumpadButton3.ForeColor = System.Drawing.Color.White;
+            this.NumpadButton3.ForeColor = System.Drawing.Color.Black;
             this.NumpadButton3.Image = null;
             this.NumpadButton3.ImagePosition = 24;
             this.NumpadButton3.ImageZoom = 50;
@@ -301,7 +282,7 @@
             this.NumpadButton1.colorActive = System.Drawing.Color.MediumSeaGreen;
             this.NumpadButton1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.NumpadButton1.Font = new System.Drawing.Font("Maiandra GD", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NumpadButton1.ForeColor = System.Drawing.Color.White;
+            this.NumpadButton1.ForeColor = System.Drawing.Color.Black;
             this.NumpadButton1.Image = null;
             this.NumpadButton1.ImagePosition = 24;
             this.NumpadButton1.ImageZoom = 50;
@@ -314,12 +295,51 @@
             this.NumpadButton1.TabIndex = 13;
             this.NumpadButton1.Click += new System.EventHandler(this.NumpadButton1_Click);
             // 
+            // bunifuTileButton2
+            // 
+            this.bunifuTileButton2.BackColor = System.Drawing.Color.Red;
+            this.bunifuTileButton2.color = System.Drawing.Color.Red;
+            this.bunifuTileButton2.colorActive = System.Drawing.Color.MediumSeaGreen;
+            this.bunifuTileButton2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuTileButton2.Font = new System.Drawing.Font("Maiandra GD", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuTileButton2.ForeColor = System.Drawing.Color.Black;
+            this.bunifuTileButton2.Image = null;
+            this.bunifuTileButton2.ImagePosition = 0;
+            this.bunifuTileButton2.ImageZoom = 0;
+            this.bunifuTileButton2.LabelPosition = 45;
+            this.bunifuTileButton2.LabelText = "CANCEL";
+            this.bunifuTileButton2.Location = new System.Drawing.Point(238, 76);
+            this.bunifuTileButton2.Margin = new System.Windows.Forms.Padding(5);
+            this.bunifuTileButton2.Name = "bunifuTileButton2";
+            this.bunifuTileButton2.Size = new System.Drawing.Size(75, 73);
+            this.bunifuTileButton2.TabIndex = 25;
+            // 
+            // bunifuTileButton3
+            // 
+            this.bunifuTileButton3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.bunifuTileButton3.color = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.bunifuTileButton3.colorActive = System.Drawing.Color.MediumSeaGreen;
+            this.bunifuTileButton3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuTileButton3.Font = new System.Drawing.Font("Maiandra GD", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuTileButton3.ForeColor = System.Drawing.Color.Black;
+            this.bunifuTileButton3.Image = null;
+            this.bunifuTileButton3.ImagePosition = 0;
+            this.bunifuTileButton3.ImageZoom = 0;
+            this.bunifuTileButton3.LabelPosition = 45;
+            this.bunifuTileButton3.LabelText = "CLEAR";
+            this.bunifuTileButton3.Location = new System.Drawing.Point(238, 151);
+            this.bunifuTileButton3.Margin = new System.Windows.Forms.Padding(5);
+            this.bunifuTileButton3.Name = "bunifuTileButton3";
+            this.bunifuTileButton3.Size = new System.Drawing.Size(75, 73);
+            this.bunifuTileButton3.TabIndex = 26;
+            // 
             // Pin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(243, 381);
-            this.Controls.Add(this.bunifuTileButton1);
+            this.ClientSize = new System.Drawing.Size(319, 381);
+            this.Controls.Add(this.bunifuTileButton3);
+            this.Controls.Add(this.bunifuTileButton2);
             this.Controls.Add(this.NumpadEnterButton);
             this.Controls.Add(this.NumpadButton0);
             this.Controls.Add(this.NumpadButton8);
@@ -346,7 +366,6 @@
 
         private Bunifu.Framework.UI.BunifuMetroTextbox bunifuMetroTextbox1;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel1;
-        private Bunifu.Framework.UI.BunifuTileButton bunifuTileButton1;
         private Bunifu.Framework.UI.BunifuTileButton NumpadEnterButton;
         private Bunifu.Framework.UI.BunifuTileButton NumpadButton0;
         private Bunifu.Framework.UI.BunifuTileButton NumpadButton8;
@@ -358,5 +377,7 @@
         private Bunifu.Framework.UI.BunifuTileButton NumpadButton2;
         private Bunifu.Framework.UI.BunifuTileButton NumpadButton3;
         private Bunifu.Framework.UI.BunifuTileButton NumpadButton1;
+        private Bunifu.Framework.UI.BunifuTileButton bunifuTileButton2;
+        private Bunifu.Framework.UI.BunifuTileButton bunifuTileButton3;
     }
 }
