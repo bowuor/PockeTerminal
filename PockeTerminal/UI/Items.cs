@@ -16,5 +16,10 @@ namespace Terminal1
         {
             InitializeComponent();
         }
+
+        private void CartCancelButton_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

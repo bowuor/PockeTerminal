@@ -35,7 +35,13 @@
             this.Price = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.bunifuGradientPanel3 = new Bunifu.Framework.UI.BunifuGradientPanel();
             this.CartCancelButton = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.bunifuGradientPanel1 = new Bunifu.Framework.UI.BunifuGradientPanel();
+            this.bunifuGradientPanel2 = new Bunifu.Framework.UI.BunifuGradientPanel();
+            this.bunifuGradientPanel4 = new Bunifu.Framework.UI.BunifuGradientPanel();
+            this.bunifuGradientPanel5 = new Bunifu.Framework.UI.BunifuGradientPanel();
+            this.listBox1 = new System.Windows.Forms.ListBox();
             this.bunifuGradientPanel3.SuspendLayout();
+            this.bunifuGradientPanel5.SuspendLayout();
             this.SuspendLayout();
             // 
             // listView1
@@ -65,7 +71,7 @@
             this.bunifuGradientPanel3.Location = new System.Drawing.Point(0, 0);
             this.bunifuGradientPanel3.Name = "bunifuGradientPanel3";
             this.bunifuGradientPanel3.Quality = 10;
-            this.bunifuGradientPanel3.Size = new System.Drawing.Size(1141, 73);
+            this.bunifuGradientPanel3.Size = new System.Drawing.Size(1141, 61);
             this.bunifuGradientPanel3.TabIndex = 14;
             // 
             // CartCancelButton
@@ -79,6 +85,7 @@
             this.CartCancelButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("CartCancelButton.BackgroundImage")));
             this.CartCancelButton.ButtonText = "Back";
             this.CartCancelButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.CartCancelButton.Dock = System.Windows.Forms.DockStyle.Left;
             this.CartCancelButton.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CartCancelButton.ForeColor = System.Drawing.Color.White;
             this.CartCancelButton.IdleBorderThickness = 1;
@@ -86,12 +93,87 @@
             this.CartCancelButton.IdleFillColor = System.Drawing.Color.LimeGreen;
             this.CartCancelButton.IdleForecolor = System.Drawing.Color.White;
             this.CartCancelButton.IdleLineColor = System.Drawing.Color.LimeGreen;
-            this.CartCancelButton.Location = new System.Drawing.Point(19, 5);
+            this.CartCancelButton.Location = new System.Drawing.Point(0, 0);
             this.CartCancelButton.Margin = new System.Windows.Forms.Padding(5);
             this.CartCancelButton.Name = "CartCancelButton";
-            this.CartCancelButton.Size = new System.Drawing.Size(103, 58);
+            this.CartCancelButton.Size = new System.Drawing.Size(103, 61);
             this.CartCancelButton.TabIndex = 12;
             this.CartCancelButton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.CartCancelButton.Click += new System.EventHandler(this.CartCancelButton_Click);
+            // 
+            // bunifuGradientPanel1
+            // 
+            this.bunifuGradientPanel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuGradientPanel1.BackgroundImage")));
+            this.bunifuGradientPanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuGradientPanel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.bunifuGradientPanel1.GradientBottomLeft = System.Drawing.Color.White;
+            this.bunifuGradientPanel1.GradientBottomRight = System.Drawing.Color.White;
+            this.bunifuGradientPanel1.GradientTopLeft = System.Drawing.Color.White;
+            this.bunifuGradientPanel1.GradientTopRight = System.Drawing.Color.White;
+            this.bunifuGradientPanel1.Location = new System.Drawing.Point(0, 61);
+            this.bunifuGradientPanel1.Name = "bunifuGradientPanel1";
+            this.bunifuGradientPanel1.Quality = 10;
+            this.bunifuGradientPanel1.Size = new System.Drawing.Size(1141, 31);
+            this.bunifuGradientPanel1.TabIndex = 15;
+            // 
+            // bunifuGradientPanel2
+            // 
+            this.bunifuGradientPanel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuGradientPanel2.BackgroundImage")));
+            this.bunifuGradientPanel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuGradientPanel2.Dock = System.Windows.Forms.DockStyle.Left;
+            this.bunifuGradientPanel2.GradientBottomLeft = System.Drawing.Color.White;
+            this.bunifuGradientPanel2.GradientBottomRight = System.Drawing.Color.White;
+            this.bunifuGradientPanel2.GradientTopLeft = System.Drawing.Color.White;
+            this.bunifuGradientPanel2.GradientTopRight = System.Drawing.Color.White;
+            this.bunifuGradientPanel2.Location = new System.Drawing.Point(0, 92);
+            this.bunifuGradientPanel2.Name = "bunifuGradientPanel2";
+            this.bunifuGradientPanel2.Quality = 10;
+            this.bunifuGradientPanel2.Size = new System.Drawing.Size(200, 499);
+            this.bunifuGradientPanel2.TabIndex = 16;
+            // 
+            // bunifuGradientPanel4
+            // 
+            this.bunifuGradientPanel4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuGradientPanel4.BackgroundImage")));
+            this.bunifuGradientPanel4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuGradientPanel4.Dock = System.Windows.Forms.DockStyle.Right;
+            this.bunifuGradientPanel4.GradientBottomLeft = System.Drawing.Color.White;
+            this.bunifuGradientPanel4.GradientBottomRight = System.Drawing.Color.White;
+            this.bunifuGradientPanel4.GradientTopLeft = System.Drawing.Color.White;
+            this.bunifuGradientPanel4.GradientTopRight = System.Drawing.Color.White;
+            this.bunifuGradientPanel4.Location = new System.Drawing.Point(941, 92);
+            this.bunifuGradientPanel4.Name = "bunifuGradientPanel4";
+            this.bunifuGradientPanel4.Quality = 10;
+            this.bunifuGradientPanel4.Size = new System.Drawing.Size(200, 499);
+            this.bunifuGradientPanel4.TabIndex = 17;
+            // 
+            // bunifuGradientPanel5
+            // 
+            this.bunifuGradientPanel5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuGradientPanel5.BackgroundImage")));
+            this.bunifuGradientPanel5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuGradientPanel5.Controls.Add(this.listBox1);
+            this.bunifuGradientPanel5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.bunifuGradientPanel5.GradientBottomLeft = System.Drawing.Color.White;
+            this.bunifuGradientPanel5.GradientBottomRight = System.Drawing.Color.White;
+            this.bunifuGradientPanel5.GradientTopLeft = System.Drawing.Color.White;
+            this.bunifuGradientPanel5.GradientTopRight = System.Drawing.Color.White;
+            this.bunifuGradientPanel5.Location = new System.Drawing.Point(200, 92);
+            this.bunifuGradientPanel5.Name = "bunifuGradientPanel5";
+            this.bunifuGradientPanel5.Quality = 10;
+            this.bunifuGradientPanel5.Size = new System.Drawing.Size(741, 499);
+            this.bunifuGradientPanel5.TabIndex = 18;
+            // 
+            // listBox1
+            // 
+            this.listBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.listBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.listBox1.Font = new System.Drawing.Font("Maiandra GD", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.ItemHeight = 22;
+            this.listBox1.Location = new System.Drawing.Point(0, 0);
+            this.listBox1.MultiColumn = true;
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(741, 499);
+            this.listBox1.TabIndex = 0;
             // 
             // Items
             // 
@@ -100,6 +182,10 @@
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1141, 591);
             this.ControlBox = false;
+            this.Controls.Add(this.bunifuGradientPanel5);
+            this.Controls.Add(this.bunifuGradientPanel4);
+            this.Controls.Add(this.bunifuGradientPanel2);
+            this.Controls.Add(this.bunifuGradientPanel1);
             this.Controls.Add(this.bunifuGradientPanel3);
             this.Controls.Add(this.listView1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -110,6 +196,7 @@
             this.Text = "Items";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.bunifuGradientPanel3.ResumeLayout(false);
+            this.bunifuGradientPanel5.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -120,5 +207,10 @@
         private System.Windows.Forms.ColumnHeader Price;
         private Bunifu.Framework.UI.BunifuGradientPanel bunifuGradientPanel3;
         private Bunifu.Framework.UI.BunifuThinButton2 CartCancelButton;
+        private Bunifu.Framework.UI.BunifuGradientPanel bunifuGradientPanel1;
+        private Bunifu.Framework.UI.BunifuGradientPanel bunifuGradientPanel2;
+        private Bunifu.Framework.UI.BunifuGradientPanel bunifuGradientPanel4;
+        private Bunifu.Framework.UI.BunifuGradientPanel bunifuGradientPanel5;
+        private System.Windows.Forms.ListBox listBox1;
     }
 }
