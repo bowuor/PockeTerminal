@@ -66,5 +66,10 @@ namespace Terminal1
             tap.Dispose();
         }
 
+        private void itemsButton_Click(object sender, EventArgs e)
+        {
+            Items itemList = new Items();
+            itemList.Show();
+        }
     }
 }

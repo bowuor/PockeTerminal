@@ -115,6 +115,7 @@
             this.itemsButton.Text = "Items";
             this.itemsButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.itemsButton.UseVisualStyleBackColor = false;
+            this.itemsButton.Click += new System.EventHandler(this.itemsButton_Click);
             // 
             // panel4
             // 

@@ -117,4 +117,31 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <metadata name="bunifuGradientPanel3.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="bunifuGradientPanel3.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAUSURBVChTY/hPJBhViBdQW+H//wAj+46A3TfWvAAAAABJ
+        RU5ErkJggg==
+</value>
+  </data>
+  <data name="CartCancelButton.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAGcAAAA6CAYAAACtUUfQAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJGSURBVHhe7ZwxSyNBGIbvNwWUiEZNLATFVrBKE6zERvwT
+        glha+B8srOys7GLcTY5TxDuLM9dcjuPCwZFD+e7e2TWo+WKhMfMW7wtPNbOzMA+7Mwv7zQdTaCM5xJEc
+        4kgOcSSHOJJDnBfl9O57dvzj2DavN23tYs0qacUKZwXxBjCHmMv1q3U76hxZ966bz/Zghso5/XVq5aRs
+        pbRkhbp/I/E2Zs5nbC6Zs8Pvh/msP82AHJjc+rwVLvIGFKNnNpm16mXVOn87uYUsT+RAzHJr2SYbk+4g
+        4n1Zai1Zu9fObTyTgydGYuKC9eghfTlYY/Qqi890Mm377f3gJMjBrgyLv9dZjJ9yWrabPzeZHGzpsHPw
+        OorxM9GYsN3b3UwO9txeJxGJ/58uKx9XMjmLzUW/k4gGnp4gZ+p8yu0g4hLkeA0iPpJDjOQQIznESA4x
+        kkOM5BAjOcRIDjGSQ4zkECM5xEgOMZJDjOQQIznESA4xkkOM5BAjOcRIDjGSQ4zkECM5xEgOMUEOfv30
+        GkVcghwV4nIS5KAe0WsU8UBxQZBz8O1AP7OTsf1lO5ODIlGVHPKA6uqTnyeZHGTvdi/UI3qdxfhAwfTG
+        9UZw0peDutDVT6vuBWJ8LKQL/VM9+nIQFIlWmtq5xQKFuvVuPbfxTA7S/N0MB0UUG0V3ADF68CrDE/NY
+        DDIgB8Erbufrjs2n8+5gYkTUC+FsodpVzT2gyJXzEJjElq6UlPzBxavBpwtO48KpXMPyohwlbiSHOJJD
+        HMkhjuTQxuwftjkPiRZEQrMAAAAASUVORK5CYII=
+</value>
+  </data>
 </root>
