@@ -40,6 +40,7 @@
             // 
             // panel2
             // 
+            this.panel2.CausesValidation = false;
             this.panel2.Controls.Add(this.label1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
@@ -50,6 +51,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.CausesValidation = false;
             this.label1.Font = new System.Drawing.Font("Maiandra GD", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.DarkGreen;
             this.label1.Location = new System.Drawing.Point(165, 12);
@@ -61,6 +63,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.DarkGreen;
+            this.panel1.CausesValidation = false;
             this.panel1.Controls.Add(this.button2);
             this.panel1.Controls.Add(this.button1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
@@ -72,6 +75,7 @@
             // 
             // button2
             // 
+            this.button2.CausesValidation = false;
             this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button2.DialogResult = System.Windows.Forms.DialogResult.OK;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -87,6 +91,7 @@
             // 
             // button1
             // 
+            this.button1.CausesValidation = false;
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -106,6 +111,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.cardWaitingSpinner1.BackColor = System.Drawing.Color.White;
+            this.cardWaitingSpinner1.CausesValidation = false;
             this.cardWaitingSpinner1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.cardWaitingSpinner1.Location = new System.Drawing.Point(165, 65);
             this.cardWaitingSpinner1.Name = "cardWaitingSpinner1";
@@ -117,6 +123,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.CausesValidation = false;
             this.ClientSize = new System.Drawing.Size(515, 315);
             this.ControlBox = false;
             this.Controls.Add(this.cardWaitingSpinner1);
@@ -128,6 +135,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CardWaitingForm";
             this.TopMost = true;
+            this.Load += new System.EventHandler(this.CardWaitingForm_Load);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel1.ResumeLayout(false);

@@ -219,7 +219,6 @@
             this.ShowIcon = false;
             this.Text = "POCKECARD";
             this.TransparencyKey = System.Drawing.Color.White;
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.MenuPanel.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
