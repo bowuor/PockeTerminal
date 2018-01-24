@@ -54,8 +54,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Modules\ReadCard.cs" />
-    <Compile Include="Modules\ReadCardListener.cs" />
     <Compile Include="Reader\NFCAdaptor.cs" />
     <Compile Include="UI\Balance.cs">
       <SubType>Form</SubType>

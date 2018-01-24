@@ -38,15 +38,10 @@
             this.HeaderPanel = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.statInfo = new System.Windows.Forms.StatusStrip();
-            this.statusReader = new System.Windows.Forms.ToolStripStatusLabel();
-            this.statusResult = new System.Windows.Forms.ToolStripStatusLabel();
             this.MenuPanel.SuspendLayout();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.HeaderPanel.SuspendLayout();
-            this.panel6.SuspendLayout();
-            this.statInfo.SuspendLayout();
             this.SuspendLayout();
             // 
             // MenuPanel
@@ -161,42 +156,12 @@
             // 
             this.panel6.BackColor = System.Drawing.Color.WhiteSmoke;
             this.panel6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.panel6.Controls.Add(this.statInfo);
             this.panel6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel6.ImeMode = System.Windows.Forms.ImeMode.On;
             this.panel6.Location = new System.Drawing.Point(141, 10);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(1000, 521);
             this.panel6.TabIndex = 2;
-            // 
-            // statInfo
-            // 
-            this.statInfo.AutoSize = false;
-            this.statInfo.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.statusReader,
-            this.statusResult});
-            this.statInfo.Location = new System.Drawing.Point(0, 496);
-            this.statInfo.Name = "statInfo";
-            this.statInfo.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.statInfo.Size = new System.Drawing.Size(1000, 25);
-            this.statInfo.TabIndex = 3;
-            this.statInfo.Text = "statusStrip1";
-            // 
-            // statusReader
-            // 
-            this.statusReader.AutoSize = false;
-            this.statusReader.ForeColor = System.Drawing.Color.Black;
-            this.statusReader.Name = "statusReader";
-            this.statusReader.Size = new System.Drawing.Size(150, 20);
-            this.statusReader.Text = "statusReader";
-            // 
-            // statusResult
-            // 
-            this.statusResult.AutoSize = false;
-            this.statusResult.ForeColor = System.Drawing.Color.Black;
-            this.statusResult.Name = "statusResult";
-            this.statusResult.Size = new System.Drawing.Size(225, 20);
-            this.statusResult.Text = "statusResult";
             // 
             // Home
             // 
@@ -223,9 +188,6 @@
             this.panel4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.HeaderPanel.ResumeLayout(false);
-            this.panel6.ResumeLayout(false);
-            this.statInfo.ResumeLayout(false);
-            this.statInfo.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -241,9 +203,6 @@
         private System.Windows.Forms.Button buyButton;
         private System.Windows.Forms.Button itemsButton;
         private System.Windows.Forms.Panel panel6;
-        private System.Windows.Forms.StatusStrip statInfo;
-        private System.Windows.Forms.ToolStripStatusLabel statusReader;
-        private System.Windows.Forms.ToolStripStatusLabel statusResult;
     }
 }
 

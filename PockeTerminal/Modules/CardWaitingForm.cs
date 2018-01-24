@@ -7,7 +7,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using PockeTerminal.Modules;
 
 namespace Terminal1
 {
@@ -29,15 +28,5 @@ namespace Terminal1
 
         }
 
-        private void CardWaitingForm_Load(object sender, EventArgs e)
-        {
-            ReadCard read = new ReadCard(1000);
-
-            ReadCardListener readCardListener = new ReadCardListener();
-            readCardListener.Listen(read);
-
-            read.Begin();
-
-        }
     }
 }

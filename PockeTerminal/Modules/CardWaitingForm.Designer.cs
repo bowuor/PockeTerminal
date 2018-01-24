@@ -115,7 +115,7 @@
             this.cardWaitingSpinner1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.cardWaitingSpinner1.Location = new System.Drawing.Point(165, 65);
             this.cardWaitingSpinner1.Name = "cardWaitingSpinner1";
-            this.cardWaitingSpinner1.Size = new System.Drawing.Size(214, 198);
+            this.cardWaitingSpinner1.Size = new System.Drawing.Size(202, 198);
             this.cardWaitingSpinner1.TabIndex = 5;
             // 
             // CardWaitingForm
@@ -135,7 +135,6 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CardWaitingForm";
             this.TopMost = true;
-            this.Load += new System.EventHandler(this.CardWaitingForm_Load);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel1.ResumeLayout(false);
