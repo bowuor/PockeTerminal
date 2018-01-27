@@ -39,5 +39,6 @@ namespace Terminal1
             Modules.Pin pin = new Modules.Pin();
             pin.ShowDialog();
         }
+
     }
 }

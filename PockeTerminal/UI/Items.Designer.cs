@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem("");
+            System.Windows.Forms.ListViewItem listViewItem7 = new System.Windows.Forms.ListViewItem("");
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Items));
             this.listView1 = new System.Windows.Forms.ListView();
             this.Item = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -39,7 +39,7 @@
             this.bunifuGradientPanel2 = new Bunifu.Framework.UI.BunifuGradientPanel();
             this.bunifuGradientPanel4 = new Bunifu.Framework.UI.BunifuGradientPanel();
             this.bunifuGradientPanel5 = new Bunifu.Framework.UI.BunifuGradientPanel();
-            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.listView2 = new System.Windows.Forms.ListView();
             this.bunifuGradientPanel3.SuspendLayout();
             this.bunifuGradientPanel5.SuspendLayout();
             this.SuspendLayout();
@@ -51,7 +51,7 @@
             this.Price});
             this.listView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.listView1.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem1});
+            listViewItem7});
             this.listView1.Location = new System.Drawing.Point(0, 0);
             this.listView1.Name = "listView1";
             this.listView1.Size = new System.Drawing.Size(1141, 591);
@@ -107,7 +107,7 @@
             this.bunifuGradientPanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.bunifuGradientPanel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.bunifuGradientPanel1.GradientBottomLeft = System.Drawing.Color.White;
-            this.bunifuGradientPanel1.GradientBottomRight = System.Drawing.Color.White;
+            this.bunifuGradientPanel1.GradientBottomRight = System.Drawing.Color.LightGreen;
             this.bunifuGradientPanel1.GradientTopLeft = System.Drawing.Color.White;
             this.bunifuGradientPanel1.GradientTopRight = System.Drawing.Color.White;
             this.bunifuGradientPanel1.Location = new System.Drawing.Point(0, 61);
@@ -121,7 +121,7 @@
             this.bunifuGradientPanel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuGradientPanel2.BackgroundImage")));
             this.bunifuGradientPanel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.bunifuGradientPanel2.Dock = System.Windows.Forms.DockStyle.Left;
-            this.bunifuGradientPanel2.GradientBottomLeft = System.Drawing.Color.White;
+            this.bunifuGradientPanel2.GradientBottomLeft = System.Drawing.Color.LightGreen;
             this.bunifuGradientPanel2.GradientBottomRight = System.Drawing.Color.White;
             this.bunifuGradientPanel2.GradientTopLeft = System.Drawing.Color.White;
             this.bunifuGradientPanel2.GradientTopRight = System.Drawing.Color.White;
@@ -136,7 +136,7 @@
             this.bunifuGradientPanel4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuGradientPanel4.BackgroundImage")));
             this.bunifuGradientPanel4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.bunifuGradientPanel4.Dock = System.Windows.Forms.DockStyle.Right;
-            this.bunifuGradientPanel4.GradientBottomLeft = System.Drawing.Color.White;
+            this.bunifuGradientPanel4.GradientBottomLeft = System.Drawing.Color.LightGreen;
             this.bunifuGradientPanel4.GradientBottomRight = System.Drawing.Color.White;
             this.bunifuGradientPanel4.GradientTopLeft = System.Drawing.Color.White;
             this.bunifuGradientPanel4.GradientTopRight = System.Drawing.Color.White;
@@ -150,7 +150,7 @@
             // 
             this.bunifuGradientPanel5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuGradientPanel5.BackgroundImage")));
             this.bunifuGradientPanel5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuGradientPanel5.Controls.Add(this.listBox1);
+            this.bunifuGradientPanel5.Controls.Add(this.listView2);
             this.bunifuGradientPanel5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.bunifuGradientPanel5.GradientBottomLeft = System.Drawing.Color.White;
             this.bunifuGradientPanel5.GradientBottomRight = System.Drawing.Color.White;
@@ -162,18 +162,18 @@
             this.bunifuGradientPanel5.Size = new System.Drawing.Size(741, 499);
             this.bunifuGradientPanel5.TabIndex = 18;
             // 
-            // listBox1
+            // listView2
             // 
-            this.listBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.listBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.listBox1.Font = new System.Drawing.Font("Maiandra GD", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 22;
-            this.listBox1.Location = new System.Drawing.Point(0, 0);
-            this.listBox1.MultiColumn = true;
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(741, 499);
-            this.listBox1.TabIndex = 0;
+            this.listView2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.listView2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.listView2.Font = new System.Drawing.Font("Maiandra GD", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.listView2.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
+            this.listView2.Location = new System.Drawing.Point(0, 0);
+            this.listView2.Name = "listView2";
+            this.listView2.Size = new System.Drawing.Size(741, 499);
+            this.listView2.TabIndex = 0;
+            this.listView2.UseCompatibleStateImageBehavior = false;
+            this.listView2.View = System.Windows.Forms.View.Details;
             // 
             // Items
             // 
@@ -211,6 +211,6 @@
         private Bunifu.Framework.UI.BunifuGradientPanel bunifuGradientPanel2;
         private Bunifu.Framework.UI.BunifuGradientPanel bunifuGradientPanel4;
         private Bunifu.Framework.UI.BunifuGradientPanel bunifuGradientPanel5;
-        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.ListView listView2;
     }
 }

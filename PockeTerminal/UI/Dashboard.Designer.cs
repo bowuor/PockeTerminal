@@ -33,25 +33,24 @@
             this.balanceButton = new System.Windows.Forms.Button();
             this.buyButton = new System.Windows.Forms.Button();
             this.itemsButton = new System.Windows.Forms.Button();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.HeaderPanel = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.panel6 = new System.Windows.Forms.Panel();
+            this.logo = new System.Windows.Forms.PictureBox();
+            this.headerPanel = new Bunifu.Framework.UI.BunifuGradientPanel();
+            this.HomePanel = new Bunifu.Framework.UI.BunifuGradientPanel();
+            this.bunifuGradientPanel2 = new Bunifu.Framework.UI.BunifuGradientPanel();
             this.MenuPanel.SuspendLayout();
-            this.panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.HeaderPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.logo)).BeginInit();
+            this.bunifuGradientPanel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // MenuPanel
             // 
-            this.MenuPanel.BackColor = System.Drawing.SystemColors.Control;
+            this.MenuPanel.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.MenuPanel.Controls.Add(this.bunifuGradientPanel2);
             this.MenuPanel.Controls.Add(this.balanceButton);
             this.MenuPanel.Controls.Add(this.buyButton);
             this.MenuPanel.Controls.Add(this.itemsButton);
-            this.MenuPanel.Controls.Add(this.panel4);
             this.MenuPanel.Dock = System.Windows.Forms.DockStyle.Left;
+            this.MenuPanel.ForeColor = System.Drawing.SystemColors.Control;
             this.MenuPanel.Location = new System.Drawing.Point(0, 0);
             this.MenuPanel.Margin = new System.Windows.Forms.Padding(0);
             this.MenuPanel.Name = "MenuPanel";
@@ -113,55 +112,63 @@
             this.itemsButton.UseVisualStyleBackColor = false;
             this.itemsButton.Click += new System.EventHandler(this.itemsButton_Click);
             // 
-            // panel4
+            // logo
             // 
-            this.panel4.BackColor = System.Drawing.SystemColors.Control;
-            this.panel4.Controls.Add(this.pictureBox1);
-            this.panel4.Location = new System.Drawing.Point(1, 0);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(141, 100);
-            this.panel4.TabIndex = 3;
+            this.logo.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.logo.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.logo.Image = ((System.Drawing.Image)(resources.GetObject("logo.Image")));
+            this.logo.Location = new System.Drawing.Point(0, 0);
+            this.logo.Name = "logo";
+            this.logo.Size = new System.Drawing.Size(141, 100);
+            this.logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.logo.TabIndex = 2;
+            this.logo.TabStop = false;
             // 
-            // pictureBox1
+            // headerPanel
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(6, 3);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(125, 90);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 2;
-            this.pictureBox1.TabStop = false;
+            this.headerPanel.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("headerPanel.BackgroundImage")));
+            this.headerPanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.headerPanel.Dock = System.Windows.Forms.DockStyle.Top;
+            this.headerPanel.GradientBottomLeft = System.Drawing.Color.White;
+            this.headerPanel.GradientBottomRight = System.Drawing.Color.LightGreen;
+            this.headerPanel.GradientTopLeft = System.Drawing.Color.White;
+            this.headerPanel.GradientTopRight = System.Drawing.Color.White;
+            this.headerPanel.Location = new System.Drawing.Point(141, 0);
+            this.headerPanel.Name = "headerPanel";
+            this.headerPanel.Quality = 10;
+            this.headerPanel.Size = new System.Drawing.Size(1000, 23);
+            this.headerPanel.TabIndex = 0;
             // 
-            // HeaderPanel
+            // HomePanel
             // 
-            this.HeaderPanel.BackColor = System.Drawing.Color.LimeGreen;
-            this.HeaderPanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.HeaderPanel.Controls.Add(this.panel3);
-            this.HeaderPanel.Dock = System.Windows.Forms.DockStyle.Top;
-            this.HeaderPanel.Location = new System.Drawing.Point(141, 0);
-            this.HeaderPanel.Margin = new System.Windows.Forms.Padding(0);
-            this.HeaderPanel.Name = "HeaderPanel";
-            this.HeaderPanel.Size = new System.Drawing.Size(1000, 10);
-            this.HeaderPanel.TabIndex = 1;
+            this.HomePanel.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("HomePanel.BackgroundImage")));
+            this.HomePanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.HomePanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.HomePanel.GradientBottomLeft = System.Drawing.Color.White;
+            this.HomePanel.GradientBottomRight = System.Drawing.Color.LightGreen;
+            this.HomePanel.GradientTopLeft = System.Drawing.Color.White;
+            this.HomePanel.GradientTopRight = System.Drawing.Color.White;
+            this.HomePanel.Location = new System.Drawing.Point(0, 0);
+            this.HomePanel.Name = "HomePanel";
+            this.HomePanel.Quality = 10;
+            this.HomePanel.Size = new System.Drawing.Size(1141, 531);
+            this.HomePanel.TabIndex = 1;
             // 
-            // panel3
+            // bunifuGradientPanel2
             // 
-            this.panel3.BackColor = System.Drawing.Color.LimeGreen;
-            this.panel3.Location = new System.Drawing.Point(53, 23);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(110, 100);
-            this.panel3.TabIndex = 2;
-            // 
-            // panel6
-            // 
-            this.panel6.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.panel6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.panel6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel6.ImeMode = System.Windows.Forms.ImeMode.On;
-            this.panel6.Location = new System.Drawing.Point(141, 10);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(1000, 521);
-            this.panel6.TabIndex = 2;
+            this.bunifuGradientPanel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuGradientPanel2.BackgroundImage")));
+            this.bunifuGradientPanel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuGradientPanel2.Controls.Add(this.logo);
+            this.bunifuGradientPanel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.bunifuGradientPanel2.GradientBottomLeft = System.Drawing.Color.White;
+            this.bunifuGradientPanel2.GradientBottomRight = System.Drawing.Color.White;
+            this.bunifuGradientPanel2.GradientTopLeft = System.Drawing.Color.White;
+            this.bunifuGradientPanel2.GradientTopRight = System.Drawing.Color.White;
+            this.bunifuGradientPanel2.Location = new System.Drawing.Point(0, 0);
+            this.bunifuGradientPanel2.Name = "bunifuGradientPanel2";
+            this.bunifuGradientPanel2.Quality = 10;
+            this.bunifuGradientPanel2.Size = new System.Drawing.Size(141, 100);
+            this.bunifuGradientPanel2.TabIndex = 8;
             // 
             // Home
             // 
@@ -171,9 +178,9 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(1141, 531);
             this.ControlBox = false;
-            this.Controls.Add(this.panel6);
-            this.Controls.Add(this.HeaderPanel);
+            this.Controls.Add(this.headerPanel);
             this.Controls.Add(this.MenuPanel);
+            this.Controls.Add(this.HomePanel);
             this.DoubleBuffered = true;
             this.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -185,9 +192,8 @@
             this.Text = "POCKECARD";
             this.TransparencyKey = System.Drawing.Color.White;
             this.MenuPanel.ResumeLayout(false);
-            this.panel4.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.HeaderPanel.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.logo)).EndInit();
+            this.bunifuGradientPanel2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -195,14 +201,13 @@
         #endregion
 
         private System.Windows.Forms.Panel MenuPanel;
-        private System.Windows.Forms.Panel HeaderPanel;
-        private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.PictureBox logo;
         private System.Windows.Forms.Button balanceButton;
         private System.Windows.Forms.Button buyButton;
         private System.Windows.Forms.Button itemsButton;
-        private System.Windows.Forms.Panel panel6;
+        private Bunifu.Framework.UI.BunifuGradientPanel headerPanel;
+        private Bunifu.Framework.UI.BunifuGradientPanel HomePanel;
+        private Bunifu.Framework.UI.BunifuGradientPanel bunifuGradientPanel2;
     }
 }
 
