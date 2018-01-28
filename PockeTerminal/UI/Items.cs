@@ -17,7 +17,7 @@ namespace Terminal1
             InitializeComponent();
         }
 
-        private void CartCancelButton_Click(object sender, EventArgs e)
+        private void ItemsBackButton_Click(object sender, EventArgs e)
         {
             this.Close();
         }

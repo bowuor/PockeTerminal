@@ -54,7 +54,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Reader\NFCAdaptor.cs" />
+    <Compile Include="Settings.cs" />
     <Compile Include="UI\Balance.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -131,14 +137,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -154,6 +155,24 @@
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Checkout_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Back_Arrow_26px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_List_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Shopping_Cart_64px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Wallet_64px_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Back_Arrow_26px1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -30,16 +30,16 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Home));
             this.MenuPanel = new System.Windows.Forms.Panel();
+            this.headerPanel = new Bunifu.Framework.UI.BunifuGradientPanel();
+            this.bunifuGradientPanel2 = new Bunifu.Framework.UI.BunifuGradientPanel();
+            this.logo = new System.Windows.Forms.PictureBox();
             this.balanceButton = new System.Windows.Forms.Button();
             this.buyButton = new System.Windows.Forms.Button();
             this.itemsButton = new System.Windows.Forms.Button();
-            this.logo = new System.Windows.Forms.PictureBox();
-            this.headerPanel = new Bunifu.Framework.UI.BunifuGradientPanel();
             this.HomePanel = new Bunifu.Framework.UI.BunifuGradientPanel();
-            this.bunifuGradientPanel2 = new Bunifu.Framework.UI.BunifuGradientPanel();
             this.MenuPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.logo)).BeginInit();
             this.bunifuGradientPanel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.logo)).BeginInit();
             this.SuspendLayout();
             // 
             // MenuPanel
@@ -57,73 +57,6 @@
             this.MenuPanel.Size = new System.Drawing.Size(141, 531);
             this.MenuPanel.TabIndex = 0;
             // 
-            // balanceButton
-            // 
-            this.balanceButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.balanceButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.balanceButton.FlatAppearance.BorderSize = 0;
-            this.balanceButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.balanceButton.Font = new System.Drawing.Font("Maiandra GD", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.balanceButton.ForeColor = System.Drawing.Color.Green;
-            this.balanceButton.Image = ((System.Drawing.Image)(resources.GetObject("balanceButton.Image")));
-            this.balanceButton.Location = new System.Drawing.Point(17, 400);
-            this.balanceButton.Name = "balanceButton";
-            this.balanceButton.Size = new System.Drawing.Size(107, 128);
-            this.balanceButton.TabIndex = 7;
-            this.balanceButton.Text = "Balance";
-            this.balanceButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.balanceButton.UseVisualStyleBackColor = false;
-            this.balanceButton.Click += new System.EventHandler(this.balanceButton_Click);
-            // 
-            // buyButton
-            // 
-            this.buyButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.buyButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.buyButton.FlatAppearance.BorderSize = 0;
-            this.buyButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buyButton.Font = new System.Drawing.Font("Maiandra GD", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buyButton.ForeColor = System.Drawing.Color.Green;
-            this.buyButton.Image = ((System.Drawing.Image)(resources.GetObject("buyButton.Image")));
-            this.buyButton.Location = new System.Drawing.Point(17, 257);
-            this.buyButton.Name = "buyButton";
-            this.buyButton.Size = new System.Drawing.Size(107, 128);
-            this.buyButton.TabIndex = 6;
-            this.buyButton.Text = "Buy";
-            this.buyButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.buyButton.UseVisualStyleBackColor = false;
-            this.buyButton.Click += new System.EventHandler(this.buyButton_Click);
-            // 
-            // itemsButton
-            // 
-            this.itemsButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.itemsButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.itemsButton.FlatAppearance.BorderSize = 0;
-            this.itemsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.itemsButton.Font = new System.Drawing.Font("Maiandra GD", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.itemsButton.ForeColor = System.Drawing.Color.Green;
-            this.itemsButton.Image = ((System.Drawing.Image)(resources.GetObject("itemsButton.Image")));
-            this.itemsButton.Location = new System.Drawing.Point(17, 116);
-            this.itemsButton.Name = "itemsButton";
-            this.itemsButton.Size = new System.Drawing.Size(107, 128);
-            this.itemsButton.TabIndex = 5;
-            this.itemsButton.Text = "Items";
-            this.itemsButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.itemsButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.itemsButton.UseVisualStyleBackColor = false;
-            this.itemsButton.Click += new System.EventHandler(this.itemsButton_Click);
-            // 
-            // logo
-            // 
-            this.logo.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.logo.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.logo.Image = ((System.Drawing.Image)(resources.GetObject("logo.Image")));
-            this.logo.Location = new System.Drawing.Point(0, 0);
-            this.logo.Name = "logo";
-            this.logo.Size = new System.Drawing.Size(141, 100);
-            this.logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.logo.TabIndex = 2;
-            this.logo.TabStop = false;
-            // 
             // headerPanel
             // 
             this.headerPanel.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("headerPanel.BackgroundImage")));
@@ -138,21 +71,6 @@
             this.headerPanel.Quality = 10;
             this.headerPanel.Size = new System.Drawing.Size(1000, 23);
             this.headerPanel.TabIndex = 0;
-            // 
-            // HomePanel
-            // 
-            this.HomePanel.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("HomePanel.BackgroundImage")));
-            this.HomePanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.HomePanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.HomePanel.GradientBottomLeft = System.Drawing.Color.White;
-            this.HomePanel.GradientBottomRight = System.Drawing.Color.LightGreen;
-            this.HomePanel.GradientTopLeft = System.Drawing.Color.White;
-            this.HomePanel.GradientTopRight = System.Drawing.Color.White;
-            this.HomePanel.Location = new System.Drawing.Point(0, 0);
-            this.HomePanel.Name = "HomePanel";
-            this.HomePanel.Quality = 10;
-            this.HomePanel.Size = new System.Drawing.Size(1141, 531);
-            this.HomePanel.TabIndex = 1;
             // 
             // bunifuGradientPanel2
             // 
@@ -169,6 +87,91 @@
             this.bunifuGradientPanel2.Quality = 10;
             this.bunifuGradientPanel2.Size = new System.Drawing.Size(141, 100);
             this.bunifuGradientPanel2.TabIndex = 8;
+            // 
+            // logo
+            // 
+            this.logo.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.logo.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.logo.Image = ((System.Drawing.Image)(resources.GetObject("logo.Image")));
+            this.logo.Location = new System.Drawing.Point(0, 0);
+            this.logo.Name = "logo";
+            this.logo.Size = new System.Drawing.Size(141, 100);
+            this.logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.logo.TabIndex = 2;
+            this.logo.TabStop = false;
+            // 
+            // balanceButton
+            // 
+            this.balanceButton.BackColor = System.Drawing.Color.Transparent;
+            this.balanceButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.balanceButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.balanceButton.FlatAppearance.BorderSize = 0;
+            this.balanceButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.balanceButton.Font = new System.Drawing.Font("Maiandra GD", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.balanceButton.ForeColor = System.Drawing.Color.Green;
+            this.balanceButton.Image = global::PockeTerminal.Properties.Resources.icons8_Wallet_64px_2;
+            this.balanceButton.Location = new System.Drawing.Point(17, 400);
+            this.balanceButton.Name = "balanceButton";
+            this.balanceButton.Size = new System.Drawing.Size(107, 128);
+            this.balanceButton.TabIndex = 7;
+            this.balanceButton.Text = "Balance";
+            this.balanceButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.balanceButton.UseVisualStyleBackColor = false;
+            this.balanceButton.Click += new System.EventHandler(this.balanceButton_Click);
+            // 
+            // buyButton
+            // 
+            this.buyButton.BackColor = System.Drawing.Color.Transparent;
+            this.buyButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.buyButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buyButton.FlatAppearance.BorderSize = 0;
+            this.buyButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buyButton.Font = new System.Drawing.Font("Maiandra GD", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buyButton.ForeColor = System.Drawing.Color.Green;
+            this.buyButton.Image = global::PockeTerminal.Properties.Resources.icons8_Shopping_Cart_64px;
+            this.buyButton.Location = new System.Drawing.Point(17, 257);
+            this.buyButton.Name = "buyButton";
+            this.buyButton.Size = new System.Drawing.Size(107, 128);
+            this.buyButton.TabIndex = 6;
+            this.buyButton.Text = "Buy";
+            this.buyButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.buyButton.UseVisualStyleBackColor = false;
+            this.buyButton.Click += new System.EventHandler(this.buyButton_Click);
+            // 
+            // itemsButton
+            // 
+            this.itemsButton.BackColor = System.Drawing.Color.Transparent;
+            this.itemsButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.itemsButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.itemsButton.FlatAppearance.BorderSize = 0;
+            this.itemsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.itemsButton.Font = new System.Drawing.Font("Maiandra GD", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.itemsButton.ForeColor = System.Drawing.Color.Green;
+            this.itemsButton.Image = global::PockeTerminal.Properties.Resources.icons8_List_48px;
+            this.itemsButton.Location = new System.Drawing.Point(17, 116);
+            this.itemsButton.Name = "itemsButton";
+            this.itemsButton.Size = new System.Drawing.Size(107, 128);
+            this.itemsButton.TabIndex = 5;
+            this.itemsButton.Text = "Items";
+            this.itemsButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.itemsButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.itemsButton.UseVisualStyleBackColor = false;
+            this.itemsButton.Click += new System.EventHandler(this.itemsButton_Click);
+            // 
+            // HomePanel
+            // 
+            this.HomePanel.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("HomePanel.BackgroundImage")));
+            this.HomePanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.HomePanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.HomePanel.GradientBottomLeft = System.Drawing.Color.White;
+            this.HomePanel.GradientBottomRight = System.Drawing.Color.LightGreen;
+            this.HomePanel.GradientTopLeft = System.Drawing.Color.White;
+            this.HomePanel.GradientTopRight = System.Drawing.Color.White;
+            this.HomePanel.Location = new System.Drawing.Point(0, 0);
+            this.HomePanel.Name = "HomePanel";
+            this.HomePanel.Quality = 10;
+            this.HomePanel.Size = new System.Drawing.Size(1141, 531);
+            this.HomePanel.TabIndex = 1;
             // 
             // Home
             // 
@@ -192,8 +195,8 @@
             this.Text = "POCKECARD";
             this.TransparencyKey = System.Drawing.Color.White;
             this.MenuPanel.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.logo)).EndInit();
             this.bunifuGradientPanel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.logo)).EndInit();
             this.ResumeLayout(false);
 
         }

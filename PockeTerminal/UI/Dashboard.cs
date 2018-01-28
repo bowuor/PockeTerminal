@@ -49,6 +49,8 @@ namespace Terminal1
 
             {
                 Console.WriteLine("You clicked OK");
+                Balance bal = new Balance();
+                bal.Show();
             }
             else if (dialogresult == DialogResult.Cancel)
             {

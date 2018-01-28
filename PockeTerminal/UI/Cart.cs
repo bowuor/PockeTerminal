@@ -24,21 +24,15 @@ namespace Terminal1
             InitializeComponent();
         }
 
-        private void Cart_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void CartCancelButton_Click(object sender, EventArgs e)
         {
             this.Close();
         }
 
-        private void CheckoutButton_Click_1(object sender, EventArgs e)
+        private void CheckoutButton_Click(object sender, EventArgs e)
         {
             Modules.Pin pin = new Modules.Pin();
             pin.ShowDialog();
         }
-
     }
 }
