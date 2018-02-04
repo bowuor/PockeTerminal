@@ -65,5 +65,10 @@ namespace Terminal1
             Items itemList = new Items();
             itemList.Show();
         }
+
+        private void HomePanel_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

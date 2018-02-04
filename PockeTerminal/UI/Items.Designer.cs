@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.ListViewItem listViewItem3 = new System.Windows.Forms.ListViewItem("");
+            System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem("");
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Items));
             this.listView1 = new System.Windows.Forms.ListView();
             this.Item = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -40,6 +40,8 @@
             this.bunifuGradientPanel4 = new Bunifu.Framework.UI.BunifuGradientPanel();
             this.bunifuGradientPanel5 = new Bunifu.Framework.UI.BunifuGradientPanel();
             this.listView2 = new System.Windows.Forms.ListView();
+            this.ItemHeader = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.priceHeader = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.bunifuGradientPanel3.SuspendLayout();
             this.bunifuGradientPanel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ItemsBackButton)).BeginInit();
@@ -53,7 +55,7 @@
             this.Price});
             this.listView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.listView1.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem3});
+            listViewItem1});
             this.listView1.Location = new System.Drawing.Point(0, 0);
             this.listView1.Name = "listView1";
             this.listView1.Size = new System.Drawing.Size(1141, 591);
@@ -156,6 +158,9 @@
             // listView2
             // 
             this.listView2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.listView2.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.ItemHeader,
+            this.priceHeader});
             this.listView2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.listView2.Font = new System.Drawing.Font("Maiandra GD", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listView2.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
@@ -165,6 +170,17 @@
             this.listView2.TabIndex = 0;
             this.listView2.UseCompatibleStateImageBehavior = false;
             this.listView2.View = System.Windows.Forms.View.Details;
+            // 
+            // ItemHeader
+            // 
+            this.ItemHeader.Text = "ITEM";
+            this.ItemHeader.Width = 600;
+            // 
+            // priceHeader
+            // 
+            this.priceHeader.Text = "PRICE";
+            this.priceHeader.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.priceHeader.Width = 140;
             // 
             // Items
             // 
@@ -204,5 +220,7 @@
         private System.Windows.Forms.ListView listView2;
         private Bunifu.Framework.UI.BunifuGradientPanel bunifuGradientPanel6;
         private Bunifu.Framework.UI.BunifuImageButton ItemsBackButton;
+        private System.Windows.Forms.ColumnHeader ItemHeader;
+        private System.Windows.Forms.ColumnHeader priceHeader;
     }
 }
