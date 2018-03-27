@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace Terminal1
 {
-    public partial class Balance : Form
+    public partial class Balance : MetroFramework.Forms.MetroForm
     {
         public Balance()
         {

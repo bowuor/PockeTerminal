@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace Terminal1
 {
-    public partial class Items : Form
+    public partial class Items : MetroFramework.Forms.MetroForm
     {
         public Items()
         {

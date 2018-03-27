@@ -43,7 +43,7 @@
             this.deleteButton = new Bunifu.Framework.UI.BunifuTileButton();
             this.clearButton = new Bunifu.Framework.UI.BunifuTileButton();
             this.cancelButton = new Bunifu.Framework.UI.BunifuTileButton();
-            this.PasswordTextBox = new System.Windows.Forms.TextBox();
+            this.PasswordTextBox = new MetroFramework.Controls.MetroTextBox();
             this.SuspendLayout();
             // 
             // bunifuCustomLabel1
@@ -60,7 +60,7 @@
             // 
             // okButton
             // 
-            this.okButton.BackColor = System.Drawing.Color.Green;
+            this.okButton.BackColor = System.Drawing.Color.LimeGreen;
             this.okButton.color = System.Drawing.Color.Green;
             this.okButton.colorActive = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.okButton.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -80,7 +80,7 @@
             // 
             // NumpadButton0
             // 
-            this.NumpadButton0.BackColor = System.Drawing.Color.SeaGreen;
+            this.NumpadButton0.BackColor = System.Drawing.Color.Green;
             this.NumpadButton0.color = System.Drawing.Color.SeaGreen;
             this.NumpadButton0.colorActive = System.Drawing.Color.MediumSeaGreen;
             this.NumpadButton0.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -100,7 +100,7 @@
             // 
             // NumpadButton8
             // 
-            this.NumpadButton8.BackColor = System.Drawing.Color.SeaGreen;
+            this.NumpadButton8.BackColor = System.Drawing.Color.Green;
             this.NumpadButton8.color = System.Drawing.Color.SeaGreen;
             this.NumpadButton8.colorActive = System.Drawing.Color.MediumSeaGreen;
             this.NumpadButton8.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -120,7 +120,7 @@
             // 
             // NumpadButton9
             // 
-            this.NumpadButton9.BackColor = System.Drawing.Color.SeaGreen;
+            this.NumpadButton9.BackColor = System.Drawing.Color.Green;
             this.NumpadButton9.color = System.Drawing.Color.SeaGreen;
             this.NumpadButton9.colorActive = System.Drawing.Color.MediumSeaGreen;
             this.NumpadButton9.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -140,7 +140,7 @@
             // 
             // NumpadButton7
             // 
-            this.NumpadButton7.BackColor = System.Drawing.Color.SeaGreen;
+            this.NumpadButton7.BackColor = System.Drawing.Color.Green;
             this.NumpadButton7.color = System.Drawing.Color.SeaGreen;
             this.NumpadButton7.colorActive = System.Drawing.Color.MediumSeaGreen;
             this.NumpadButton7.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -160,7 +160,7 @@
             // 
             // NumpadButton5
             // 
-            this.NumpadButton5.BackColor = System.Drawing.Color.SeaGreen;
+            this.NumpadButton5.BackColor = System.Drawing.Color.Green;
             this.NumpadButton5.color = System.Drawing.Color.SeaGreen;
             this.NumpadButton5.colorActive = System.Drawing.Color.MediumSeaGreen;
             this.NumpadButton5.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -180,7 +180,7 @@
             // 
             // NumpadButton6
             // 
-            this.NumpadButton6.BackColor = System.Drawing.Color.SeaGreen;
+            this.NumpadButton6.BackColor = System.Drawing.Color.Green;
             this.NumpadButton6.color = System.Drawing.Color.SeaGreen;
             this.NumpadButton6.colorActive = System.Drawing.Color.MediumSeaGreen;
             this.NumpadButton6.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -200,7 +200,7 @@
             // 
             // NumpadButton4
             // 
-            this.NumpadButton4.BackColor = System.Drawing.Color.SeaGreen;
+            this.NumpadButton4.BackColor = System.Drawing.Color.Green;
             this.NumpadButton4.color = System.Drawing.Color.SeaGreen;
             this.NumpadButton4.colorActive = System.Drawing.Color.MediumSeaGreen;
             this.NumpadButton4.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -220,7 +220,7 @@
             // 
             // NumpadButton2
             // 
-            this.NumpadButton2.BackColor = System.Drawing.Color.SeaGreen;
+            this.NumpadButton2.BackColor = System.Drawing.Color.Green;
             this.NumpadButton2.color = System.Drawing.Color.SeaGreen;
             this.NumpadButton2.colorActive = System.Drawing.Color.MediumSeaGreen;
             this.NumpadButton2.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -240,7 +240,7 @@
             // 
             // NumpadButton3
             // 
-            this.NumpadButton3.BackColor = System.Drawing.Color.SeaGreen;
+            this.NumpadButton3.BackColor = System.Drawing.Color.Green;
             this.NumpadButton3.color = System.Drawing.Color.SeaGreen;
             this.NumpadButton3.colorActive = System.Drawing.Color.MediumSeaGreen;
             this.NumpadButton3.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -260,7 +260,7 @@
             // 
             // NumpadButton1
             // 
-            this.NumpadButton1.BackColor = System.Drawing.Color.SeaGreen;
+            this.NumpadButton1.BackColor = System.Drawing.Color.Green;
             this.NumpadButton1.color = System.Drawing.Color.SeaGreen;
             this.NumpadButton1.colorActive = System.Drawing.Color.MediumSeaGreen;
             this.NumpadButton1.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -280,7 +280,7 @@
             // 
             // deleteButton
             // 
-            this.deleteButton.BackColor = System.Drawing.Color.SeaGreen;
+            this.deleteButton.BackColor = System.Drawing.Color.Green;
             this.deleteButton.color = System.Drawing.Color.SeaGreen;
             this.deleteButton.colorActive = System.Drawing.Color.DarkSeaGreen;
             this.deleteButton.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -340,17 +340,41 @@
             // 
             // PasswordTextBox
             // 
-            this.PasswordTextBox.AllowDrop = true;
-            this.PasswordTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.PasswordTextBox.Font = new System.Drawing.Font("Maiandra GD", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PasswordTextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.PasswordTextBox.Location = new System.Drawing.Point(9, 8);
-            this.PasswordTextBox.MaxLength = 5;
+            this.PasswordTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            // 
+            // 
+            // 
+            this.PasswordTextBox.CustomButton.Image = null;
+            this.PasswordTextBox.CustomButton.Location = new System.Drawing.Point(272, 2);
+            this.PasswordTextBox.CustomButton.Name = "";
+            this.PasswordTextBox.CustomButton.Size = new System.Drawing.Size(25, 25);
+            this.PasswordTextBox.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.PasswordTextBox.CustomButton.TabIndex = 1;
+            this.PasswordTextBox.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.PasswordTextBox.CustomButton.UseSelectable = true;
+            this.PasswordTextBox.CustomButton.Visible = false;
+            this.PasswordTextBox.FontSize = MetroFramework.MetroTextBoxSize.Medium;
+            this.PasswordTextBox.Lines = new string[0];
+            this.PasswordTextBox.Location = new System.Drawing.Point(12, 12);
+            this.PasswordTextBox.MaxLength = 6;
             this.PasswordTextBox.Name = "PasswordTextBox";
-            this.PasswordTextBox.PasswordChar = 'X';
-            this.PasswordTextBox.Size = new System.Drawing.Size(301, 40);
+            this.PasswordTextBox.PasswordChar = '●';
+            this.PasswordTextBox.PromptText = "Enter PIN";
+            this.PasswordTextBox.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.PasswordTextBox.SelectedText = "";
+            this.PasswordTextBox.SelectionLength = 0;
+            this.PasswordTextBox.SelectionStart = 0;
+            this.PasswordTextBox.ShortcutsEnabled = true;
+            this.PasswordTextBox.Size = new System.Drawing.Size(300, 30);
+            this.PasswordTextBox.Style = MetroFramework.MetroColorStyle.Green;
             this.PasswordTextBox.TabIndex = 1;
-            this.PasswordTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.PasswordTextBox.UseSelectable = true;
+            this.PasswordTextBox.UseSystemPasswordChar = true;
+            this.PasswordTextBox.WaterMark = "Enter PIN";
+            this.PasswordTextBox.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.PasswordTextBox.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
             // 
             // Pin
             // 
@@ -398,6 +422,6 @@
         private Bunifu.Framework.UI.BunifuTileButton deleteButton;
         private Bunifu.Framework.UI.BunifuTileButton clearButton;
         private Bunifu.Framework.UI.BunifuTileButton cancelButton;
-        private System.Windows.Forms.TextBox PasswordTextBox;
+        private MetroFramework.Controls.MetroTextBox PasswordTextBox;
     }
 }

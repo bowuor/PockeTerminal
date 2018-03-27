@@ -7,10 +7,12 @@ using System.Linq;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using uFCoderMulti;
+using System.IO;
 
 namespace Terminal1
 {
-    public partial class Home : Form
+    public partial class Home : MetroFramework.Forms.MetroForm
     {
         public Home()
         {
@@ -32,11 +34,10 @@ namespace Terminal1
             }
             else if (dialogresult == DialogResult.Cancel)
             {
-                Console.WriteLine("No card detected");
+               Console.WriteLine("No card detected");
             }
 
             modal.Dispose();
-
         }
         
         private void balanceButton_Click(object sender, EventArgs e)

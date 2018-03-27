@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace Terminal1
 {
-    public partial class Cart : Form
+    public partial class Cart : MetroFramework.Forms.MetroForm
     {
 
         private void cardWaitingSpinner1_Load(object sender, EventArgs e)
@@ -34,5 +34,6 @@ namespace Terminal1
             Modules.Pin pin = new Modules.Pin();
             pin.ShowDialog();
         }
+
     }
 }

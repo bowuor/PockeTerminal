@@ -56,7 +56,7 @@
             this.bunifuCircleProgressbar1.Name = "bunifuCircleProgressbar1";
             this.bunifuCircleProgressbar1.ProgressBackColor = System.Drawing.Color.White;
             this.bunifuCircleProgressbar1.ProgressColor = System.Drawing.Color.SeaGreen;
-            this.bunifuCircleProgressbar1.Size = new System.Drawing.Size(200, 200);
+            this.bunifuCircleProgressbar1.Size = new System.Drawing.Size(188, 188);
             this.bunifuCircleProgressbar1.TabIndex = 0;
             this.bunifuCircleProgressbar1.Value = 30;
             // 
@@ -67,12 +67,15 @@
             // 
             // bunifuCustomLabel1
             // 
+            this.bunifuCustomLabel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.bunifuCustomLabel1.AutoSize = true;
-            this.bunifuCustomLabel1.Font = new System.Drawing.Font("Maiandra GD", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel1.Font = new System.Drawing.Font("Maiandra GD", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuCustomLabel1.ForeColor = System.Drawing.Color.LimeGreen;
-            this.bunifuCustomLabel1.Location = new System.Drawing.Point(48, 90);
+            this.bunifuCustomLabel1.Location = new System.Drawing.Point(60, 92);
             this.bunifuCustomLabel1.Name = "bunifuCustomLabel1";
-            this.bunifuCustomLabel1.Size = new System.Drawing.Size(113, 29);
+            this.bunifuCustomLabel1.Size = new System.Drawing.Size(79, 19);
             this.bunifuCustomLabel1.TabIndex = 1;
             this.bunifuCustomLabel1.Text = "Tap card";
             // 
@@ -80,12 +83,13 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.White;
             this.Controls.Add(this.bunifuCustomLabel1);
             this.Controls.Add(this.bunifuCircleProgressbar1);
             this.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.Name = "CardWaitingSpinner";
-            this.Size = new System.Drawing.Size(216, 212);
+            this.Size = new System.Drawing.Size(195, 203);
             this.Load += new System.EventHandler(this.CardWaitingSpinner_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
