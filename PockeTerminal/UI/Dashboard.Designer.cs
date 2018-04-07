@@ -30,51 +30,76 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Home));
             this.MenuPanel = new System.Windows.Forms.Panel();
+            this.bunifuGradientPanel2 = new Bunifu.Framework.UI.BunifuGradientPanel();
+            this.logo = new System.Windows.Forms.PictureBox();
             this.balanceButton = new System.Windows.Forms.Button();
             this.buyButton = new System.Windows.Forms.Button();
             this.itemsButton = new System.Windows.Forms.Button();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.HeaderPanel = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.statInfo = new System.Windows.Forms.StatusStrip();
-            this.statusReader = new System.Windows.Forms.ToolStripStatusLabel();
-            this.statusResult = new System.Windows.Forms.ToolStripStatusLabel();
+            this.metroPanel1 = new MetroFramework.Controls.MetroPanel();
+            this.metroPanel2 = new MetroFramework.Controls.MetroPanel();
             this.MenuPanel.SuspendLayout();
-            this.panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.HeaderPanel.SuspendLayout();
-            this.panel6.SuspendLayout();
-            this.statInfo.SuspendLayout();
+            this.bunifuGradientPanel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.logo)).BeginInit();
+            this.metroPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // MenuPanel
             // 
-            this.MenuPanel.BackColor = System.Drawing.SystemColors.Control;
+            this.MenuPanel.BackColor = System.Drawing.Color.Transparent;
+            this.MenuPanel.Controls.Add(this.bunifuGradientPanel2);
             this.MenuPanel.Controls.Add(this.balanceButton);
             this.MenuPanel.Controls.Add(this.buyButton);
             this.MenuPanel.Controls.Add(this.itemsButton);
-            this.MenuPanel.Controls.Add(this.panel4);
-            this.MenuPanel.Dock = System.Windows.Forms.DockStyle.Left;
+            this.MenuPanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.MenuPanel.ForeColor = System.Drawing.SystemColors.Control;
             this.MenuPanel.Location = new System.Drawing.Point(0, 0);
-            this.MenuPanel.Margin = new System.Windows.Forms.Padding(0);
+            this.MenuPanel.Margin = new System.Windows.Forms.Padding(0, 0, 1, 0);
             this.MenuPanel.Name = "MenuPanel";
-            this.MenuPanel.Size = new System.Drawing.Size(141, 531);
+            this.MenuPanel.Size = new System.Drawing.Size(157, 555);
             this.MenuPanel.TabIndex = 0;
+            // 
+            // bunifuGradientPanel2
+            // 
+            this.bunifuGradientPanel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuGradientPanel2.BackgroundImage")));
+            this.bunifuGradientPanel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuGradientPanel2.Controls.Add(this.logo);
+            this.bunifuGradientPanel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.bunifuGradientPanel2.GradientBottomLeft = System.Drawing.Color.White;
+            this.bunifuGradientPanel2.GradientBottomRight = System.Drawing.Color.White;
+            this.bunifuGradientPanel2.GradientTopLeft = System.Drawing.Color.White;
+            this.bunifuGradientPanel2.GradientTopRight = System.Drawing.Color.White;
+            this.bunifuGradientPanel2.Location = new System.Drawing.Point(0, 0);
+            this.bunifuGradientPanel2.Name = "bunifuGradientPanel2";
+            this.bunifuGradientPanel2.Quality = 10;
+            this.bunifuGradientPanel2.Size = new System.Drawing.Size(157, 115);
+            this.bunifuGradientPanel2.TabIndex = 8;
+            // 
+            // logo
+            // 
+            this.logo.BackColor = System.Drawing.Color.Transparent;
+            this.logo.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.logo.Image = global::PockeTerminal.Properties.Resources.pocke_logo___Copy;
+            this.logo.Location = new System.Drawing.Point(0, 0);
+            this.logo.Name = "logo";
+            this.logo.Size = new System.Drawing.Size(157, 115);
+            this.logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.logo.TabIndex = 2;
+            this.logo.TabStop = false;
             // 
             // balanceButton
             // 
+            this.balanceButton.BackColor = System.Drawing.Color.Transparent;
             this.balanceButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.balanceButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.balanceButton.FlatAppearance.BorderColor = System.Drawing.Color.Green;
             this.balanceButton.FlatAppearance.BorderSize = 0;
             this.balanceButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.balanceButton.Font = new System.Drawing.Font("Maiandra GD", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.balanceButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.balanceButton.Image = ((System.Drawing.Image)(resources.GetObject("balanceButton.Image")));
-            this.balanceButton.Location = new System.Drawing.Point(17, 419);
+            this.balanceButton.ForeColor = System.Drawing.Color.Green;
+            this.balanceButton.Image = global::PockeTerminal.Properties.Resources.icons8_Wallet_64px_2;
+            this.balanceButton.Location = new System.Drawing.Point(17, 386);
             this.balanceButton.Name = "balanceButton";
-            this.balanceButton.Size = new System.Drawing.Size(107, 100);
+            this.balanceButton.Size = new System.Drawing.Size(120, 110);
             this.balanceButton.TabIndex = 7;
             this.balanceButton.Text = "Balance";
             this.balanceButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -83,16 +108,17 @@
             // 
             // buyButton
             // 
+            this.buyButton.BackColor = System.Drawing.Color.Transparent;
             this.buyButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.buyButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.buyButton.FlatAppearance.BorderSize = 0;
             this.buyButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buyButton.Font = new System.Drawing.Font("Maiandra GD", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buyButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.buyButton.Image = ((System.Drawing.Image)(resources.GetObject("buyButton.Image")));
-            this.buyButton.Location = new System.Drawing.Point(17, 289);
+            this.buyButton.ForeColor = System.Drawing.Color.Green;
+            this.buyButton.Image = global::PockeTerminal.Properties.Resources.icons8_Shopping_Cart_64px;
+            this.buyButton.Location = new System.Drawing.Point(17, 255);
             this.buyButton.Name = "buyButton";
-            this.buyButton.Size = new System.Drawing.Size(107, 100);
+            this.buyButton.Size = new System.Drawing.Size(120, 110);
             this.buyButton.TabIndex = 6;
             this.buyButton.Text = "Buy";
             this.buyButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -101,130 +127,82 @@
             // 
             // itemsButton
             // 
+            this.itemsButton.BackColor = System.Drawing.Color.Transparent;
             this.itemsButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.itemsButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.itemsButton.FlatAppearance.BorderColor = System.Drawing.Color.Green;
             this.itemsButton.FlatAppearance.BorderSize = 0;
             this.itemsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.itemsButton.Font = new System.Drawing.Font("Maiandra GD", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.itemsButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.itemsButton.Image = ((System.Drawing.Image)(resources.GetObject("itemsButton.Image")));
-            this.itemsButton.Location = new System.Drawing.Point(17, 159);
+            this.itemsButton.ForeColor = System.Drawing.Color.Green;
+            this.itemsButton.Image = global::PockeTerminal.Properties.Resources.icons8_List_48px;
+            this.itemsButton.Location = new System.Drawing.Point(17, 124);
             this.itemsButton.Name = "itemsButton";
-            this.itemsButton.Size = new System.Drawing.Size(107, 100);
+            this.itemsButton.Size = new System.Drawing.Size(120, 110);
             this.itemsButton.TabIndex = 5;
             this.itemsButton.Text = "Items";
+            this.itemsButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.itemsButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.itemsButton.UseVisualStyleBackColor = false;
+            this.itemsButton.Click += new System.EventHandler(this.itemsButton_Click);
             // 
-            // panel4
+            // metroPanel1
             // 
-            this.panel4.BackColor = System.Drawing.SystemColors.Control;
-            this.panel4.Controls.Add(this.pictureBox1);
-            this.panel4.Location = new System.Drawing.Point(1, 0);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(141, 100);
-            this.panel4.TabIndex = 3;
+            this.metroPanel1.Controls.Add(this.MenuPanel);
+            this.metroPanel1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.metroPanel1.HorizontalScrollbarBarColor = true;
+            this.metroPanel1.HorizontalScrollbarHighlightOnWheel = false;
+            this.metroPanel1.HorizontalScrollbarSize = 10;
+            this.metroPanel1.Location = new System.Drawing.Point(23, 35);
+            this.metroPanel1.Name = "metroPanel1";
+            this.metroPanel1.Size = new System.Drawing.Size(157, 555);
+            this.metroPanel1.TabIndex = 1;
+            this.metroPanel1.VerticalScrollbarBarColor = true;
+            this.metroPanel1.VerticalScrollbarHighlightOnWheel = false;
+            this.metroPanel1.VerticalScrollbarSize = 10;
             // 
-            // pictureBox1
+            // metroPanel2
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(6, 3);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(125, 90);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 2;
-            this.pictureBox1.TabStop = false;
-            // 
-            // HeaderPanel
-            // 
-            this.HeaderPanel.BackColor = System.Drawing.Color.LimeGreen;
-            this.HeaderPanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.HeaderPanel.Controls.Add(this.panel3);
-            this.HeaderPanel.Dock = System.Windows.Forms.DockStyle.Top;
-            this.HeaderPanel.Location = new System.Drawing.Point(141, 0);
-            this.HeaderPanel.Margin = new System.Windows.Forms.Padding(0);
-            this.HeaderPanel.Name = "HeaderPanel";
-            this.HeaderPanel.Size = new System.Drawing.Size(1000, 10);
-            this.HeaderPanel.TabIndex = 1;
-            // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.Color.LimeGreen;
-            this.panel3.Location = new System.Drawing.Point(53, 23);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(110, 100);
-            this.panel3.TabIndex = 2;
-            // 
-            // panel6
-            // 
-            this.panel6.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.panel6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.panel6.Controls.Add(this.statInfo);
-            this.panel6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel6.ImeMode = System.Windows.Forms.ImeMode.On;
-            this.panel6.Location = new System.Drawing.Point(141, 10);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(1000, 521);
-            this.panel6.TabIndex = 2;
-            // 
-            // statInfo
-            // 
-            this.statInfo.AutoSize = false;
-            this.statInfo.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.statusReader,
-            this.statusResult});
-            this.statInfo.Location = new System.Drawing.Point(0, 496);
-            this.statInfo.Name = "statInfo";
-            this.statInfo.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.statInfo.Size = new System.Drawing.Size(1000, 25);
-            this.statInfo.TabIndex = 3;
-            this.statInfo.Text = "statusStrip1";
-            // 
-            // statusReader
-            // 
-            this.statusReader.AutoSize = false;
-            this.statusReader.ForeColor = System.Drawing.Color.Black;
-            this.statusReader.Name = "statusReader";
-            this.statusReader.Size = new System.Drawing.Size(150, 20);
-            this.statusReader.Text = "statusReader";
-            // 
-            // statusResult
-            // 
-            this.statusResult.AutoSize = false;
-            this.statusResult.ForeColor = System.Drawing.Color.Black;
-            this.statusResult.Name = "statusResult";
-            this.statusResult.Size = new System.Drawing.Size(225, 20);
-            this.statusResult.Text = "statusResult";
+            this.metroPanel2.BackgroundImage = global::PockeTerminal.Properties.Resources.pocke_logo___Copy;
+            this.metroPanel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.metroPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.metroPanel2.HorizontalScrollbarBarColor = true;
+            this.metroPanel2.HorizontalScrollbarHighlightOnWheel = false;
+            this.metroPanel2.HorizontalScrollbarSize = 10;
+            this.metroPanel2.Location = new System.Drawing.Point(180, 35);
+            this.metroPanel2.Name = "metroPanel2";
+            this.metroPanel2.Size = new System.Drawing.Size(875, 555);
+            this.metroPanel2.TabIndex = 2;
+            this.metroPanel2.VerticalScrollbarBarColor = true;
+            this.metroPanel2.VerticalScrollbarHighlightOnWheel = false;
+            this.metroPanel2.VerticalScrollbarSize = 10;
             // 
             // Home
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ClientSize = new System.Drawing.Size(1141, 531);
+            this.ClientSize = new System.Drawing.Size(1078, 613);
             this.ControlBox = false;
-            this.Controls.Add(this.panel6);
-            this.Controls.Add(this.HeaderPanel);
-            this.Controls.Add(this.MenuPanel);
-            this.DoubleBuffered = true;
-            this.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.MaximizeBox = false;
+            this.Controls.Add(this.metroPanel2);
+            this.Controls.Add(this.metroPanel1);
+            this.DisplayHeader = false;
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ForeColor = System.Drawing.Color.ForestGreen;
             this.MinimizeBox = false;
+            this.Movable = false;
             this.Name = "Home";
+            this.Padding = new System.Windows.Forms.Padding(23, 35, 23, 23);
+            this.Resizable = false;
             this.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.ShadowType = MetroFramework.Forms.MetroFormShadowType.None;
             this.ShowIcon = false;
+            this.Style = MetroFramework.MetroColorStyle.Green;
             this.Text = "POCKECARD";
-            this.TransparencyKey = System.Drawing.Color.White;
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.TransparencyKey = System.Drawing.SystemColors.ActiveBorder;
             this.MenuPanel.ResumeLayout(false);
-            this.panel4.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.HeaderPanel.ResumeLayout(false);
-            this.panel6.ResumeLayout(false);
-            this.statInfo.ResumeLayout(false);
-            this.statInfo.PerformLayout();
+            this.bunifuGradientPanel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.logo)).EndInit();
+            this.metroPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -232,17 +210,13 @@
         #endregion
 
         private System.Windows.Forms.Panel MenuPanel;
-        private System.Windows.Forms.Panel HeaderPanel;
-        private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.PictureBox logo;
         private System.Windows.Forms.Button balanceButton;
         private System.Windows.Forms.Button buyButton;
         private System.Windows.Forms.Button itemsButton;
-        private System.Windows.Forms.Panel panel6;
-        private System.Windows.Forms.StatusStrip statInfo;
-        private System.Windows.Forms.ToolStripStatusLabel statusReader;
-        private System.Windows.Forms.ToolStripStatusLabel statusResult;
+        private Bunifu.Framework.UI.BunifuGradientPanel bunifuGradientPanel2;
+        private MetroFramework.Controls.MetroPanel metroPanel1;
+        private MetroFramework.Controls.MetroPanel metroPanel2;
     }
 }
 

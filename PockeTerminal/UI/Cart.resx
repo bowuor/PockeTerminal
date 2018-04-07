@@ -118,36 +118,35 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="CheckoutButton.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="bunifuGradientPanel3.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAAGsAAAA6CAYAAAC3badeAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJGSURBVHhe7ZwxSyNRFIX3NwUiikZNLAQlbcDKRqzERvwT
-        glha+B8srOys7GKcicvuIu5arNlmsywGQSIudz1vJkHN1Sox78A58FXvzQvMx7y5A7nvkyk0kSyiSBZR
-        JIsokkUUySLKu7K6/7p2/OfYNq82beXrilXSihXOCmKI4J7i3q5frttR+8g6j5387g/mTVmnt6dWTspW
-        SktWqPs/JIbLzPmMzSVzdvj7MLfwMgOyYHbr+1a4yFtQjJ7ZZNZWv61a+6GdW8nyQhZELV8s20Rjwl1E
-        fCxLF0vW6rZyO69k4YmSqLjA+6yXviy8o7T1xcd0Mm37rf3gKMhC1Ydiwpssxk85Ldv1/XUmCyUjKhFv
-        ohg/xUbRdm92M1mo8b1JIhKePp2qn6uZrMXmoj9JRAOeriBr6nzKnSDiIsjyBkR8SBYRkkWEZBEhWURI
-        FhGSRYRkESFZREgWEZJFhGQRIVlESBYRkkWEZBEhWURIFhGSRYRkESFZREgWEZJFhGQRIVlEBFn4a643
-        KOIiyFJjNwdBFvpXvUERD2geCbIOfh2oOSFytn9sZ7LQZKwW1XhB9/7J35NMFrJ3sxf6V73JYnygIX/j
-        aiM46stCX3HtS829QIyPhXShf+pMXxaCJuNKU5VhLKDxu96p53ZeyUKad81wcMlkY9JdQIwebH14op6L
-        QgZkIdgSd37u2Hw67y4mRkS9EM7KWrtccw/ccmX1ArMoGUtJyV9cDA18OuH0OZxC91belaXEFckiimQR
-        RbKIIlk0MfsP2KtaNzPiCQEAAAAASUVORK5CYII=
+        iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAUSURBVChTY/hPJBhViBdQW+H//wAj+46A3TfWvAAAAABJ
+        RU5ErkJggg==
 </value>
   </data>
-  <data name="CartCancelButton.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="bunifuGradientPanel6.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAAGcAAAA6CAYAAACtUUfQAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJGSURBVHhe7ZwxSyNBGIbvNwWUiEZNLATFVrBKE6zERvwT
-        glha+B8srOys7GLcTY5TxDuLM9dcjuPCwZFD+e7e2TWo+WKhMfMW7wtPNbOzMA+7Mwv7zQdTaCM5xJEc
-        4kgOcSSHOJJDnBfl9O57dvzj2DavN23tYs0qacUKZwXxBjCHmMv1q3U76hxZ966bz/Zghso5/XVq5aRs
-        pbRkhbp/I/E2Zs5nbC6Zs8Pvh/msP82AHJjc+rwVLvIGFKNnNpm16mXVOn87uYUsT+RAzHJr2SYbk+4g
-        4n1Zai1Zu9fObTyTgydGYuKC9eghfTlYY/Qqi890Mm377f3gJMjBrgyLv9dZjJ9yWrabPzeZHGzpsHPw
-        OorxM9GYsN3b3UwO9txeJxGJ/58uKx9XMjmLzUW/k4gGnp4gZ+p8yu0g4hLkeA0iPpJDjOQQIznESA4x
-        kkOM5BAjOcRIDjGSQ4zkECM5xEgOMZJDjOQQIznESA4xkkOM5BAjOcRIDjGSQ4zkECM5xEgOMUEOfv30
-        GkVcghwV4nIS5KAe0WsU8UBxQZBz8O1AP7OTsf1lO5ODIlGVHPKA6uqTnyeZHGTvdi/UI3qdxfhAwfTG
-        9UZw0peDutDVT6vuBWJ8LKQL/VM9+nIQFIlWmtq5xQKFuvVuPbfxTA7S/N0MB0UUG0V3ADF68CrDE/NY
-        DDIgB8Erbufrjs2n8+5gYkTUC+FsodpVzT2gyJXzEJjElq6UlPzBxavBpwtO48KpXMPyohwlbiSHOJJD
-        HMkhjuTQxuwftjkPiRZEQrMAAAAASUVORK5CYII=
+        iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAA1SURBVChTjcGBEMAwAMDA+F8FCjCBCkygABWYQAUyhfxj
+        xLXls+XYsm15bVm2PLZMW4bl8AceXmFstBxSTgAAAABJRU5ErkJggg==
 </value>
   </data>
+  <data name="bunifuGradientPanel4.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAUSURBVChTY/hPJBhViBdQW+H//wAj+46A3TfWvAAAAABJ
+        RU5ErkJggg==
+</value>
+  </data>
+  <data name="bunifuGradientPanel5.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABESURBVChTjcO7DcAgEETB7b+3S4hIiIhIiJDsw5/nErwj
+        jTAp38Sp9SycmvfEqXENnOq741TbDadqVpwqZ8GpOIL/wQc+yHk2JwbXNQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <metadata name="metroTabControl1.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
 </root>
